@@ -1,0 +1,83 @@
+Clases para tipos primitivos o simples: String, Integer, Double.... java.lang.*
+ 
+
+Tipos de datos Primitivos
+El lenguaje de programación Java incluye siete otros tipos de datos primitivos además de int. Un tipo primitivo está predefinido por el lenguaje y se nombra con una palabra clave reservada. Los valores primitivos no comparten estado con otros valores primitivos. Los ocho tipos de datos primitivos incluidos en el lenguaje de programación Java son:
+byte: El tipo de dato byte es un entero de 8 bits complemento a dos. Su valor mínimo es -128 y el máximo 127 (inclusive).
+short: El tipo de dato short es un entero de 16 bits complemento a dos. Su valor mínimo es -32,768 y el máximo 32,767 (inclusive).
+int: El tipo de dato int es un entero de 32 bits complemento a dos. Su valor mínimo es -2,147,483,648 y el máximo 2,147,483,647 (inclusive). Generalmente este tipo es la elección predeterminada para valores enteros a no ser que haya una razón (como las mencionadas anteriormente) para elegir otro.
+long: El tipo de dato long es un entero de 64 bits complemento a dos. Su valor mínimo es -9,223,372,036,854,775,808 y el máximo 9,223,372,036,854,775,807 (inclusive). Utilice este tipo de dato cuando necesite un rango de valores más amplio que el proporcionado por int.
+float: El tipo de dato float es un dato en coma flotante IEEE 754 de 32 bits y precisión simple.
+double: El tipo de dato double es un dato en coma flotante IEEE 754 de 64 bits y precisión doble.
+boolean: El tipo de dato boolean solamente tiene dos valores posibles: true (verdadero) y false (falso). Utilice este tipo de datos como conmutadores para la evaluación de condiciones verdadero/falso.
+char: El tipo de dato char es un solo carácter Unicode de 16 bits. Tiene un valor mínimo de '\u0000' (o «0») y un máximo de '\uffff' (o 65.535 inclusive).
+Valores predeterminados
+Tipo de dato	Valor predeterminado (para campos)
+byte	0
+short	0
+int	0
+long	0L
+float	0.0f
+double	0.0d
+char	'\u0000'
+String (o cualquier objeto)  	null
+boolean	false
+Java.lang
+El paquete Java.lang es uno de los paquetes mas importantes en el lenguaje Java, ya que incluye muchas de las clases que son la columna vertebral del lenguaje.
+
+CLASES
+
+En cuanto a lo que respecta a clases, todas son casi imprescindibles de conocer, ya que son básicas y por eso están en el paquete java.lang pero vamos a destacar unas cuantas por considerarlas principales.
+
+ PRINCIPALES CLASES EN EL PAQUETE JAVA.LANG
+
+ Boolean
+
+ Math
+
+ Double
+
+ String
+
+ Float
+
+ StringBuffer
+
+ Integer
+
+ System
+
+BOOLEAN
+
+La clase Boolean ya la conocemos. Es una clase que permite manejar los datos equivalentes de tipo primitivo. En este caso la clase Boolean es un wrap del tipo primitivo boolean. Los métodos de esta clase permiten el manejo de los valores primitivos true o false, su modificación o su comparación ya que implementa la interfaz Comparable.
+
+DOUBLE
+
+Es una clase envolvente que permite trabajar con datos double de tipo primitivo.
+
+FLOAT
+
+Otra clase envolvente, misma funcion que las dos anteriores para datos float.
+
+INTEGER
+
+Maneja tipos primitivos de tipo int. Tiene una gran cantidad de métodos sobre todo para poder convertir el entero a otros tipos como long, float, double, etc.
+
+MATH
+
+La clase Math tiene una gran cantidad de métodos para poder hacer operaciones matemáticas, como las funciones sin (double a) que calcula el seno del valor a, tan (double a) que calcula la tangente de a, etc.
+
+STRING
+
+La clase String, quizás hasta más utilizada que la Integer, es una clase que permite la definición y manejo de cadenas de caracteres. Pero un inconveniente posible es que se define como constante y tras su creación no puede ser cambiada (se dice que es inmutable, como explicaremos más adelante).
+
+Por ejemplo si quisiéramos tener una cadena con valores “abc” bastaría con definir una variable de la Clase String de la siguiente manera:
+
+String str = "abc"
+
+
+
+
+
+bibliografia
+http://dis.um.es/~lopezquesada/documentos/IES_1314/IAW/curso/UT3/java/java3/tutorial13.html#:~:text=Tipos%20de%20datos%20Primitivos&text=Los%20valores%20primitivos%20no%20comparten%20estado%20con%20otros%20valores%20primitivos.&text=Su%20valor%20m%C3%ADnimo%20es%20%2D128,el%20m%C3%A1ximo%2032%2C767%20(inclusive).

@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	escribir "ingrese numero"
+	leer numero
+	si numero mod 2 = 0 Entonces
+		escribir "el numero es par"
+	sino 
+		escribir "el numero es impar"
+	FinSi
+FinAlgoritmo

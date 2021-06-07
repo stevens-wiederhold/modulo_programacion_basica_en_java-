@@ -1,0 +1,16 @@
+Algoritmo para cambiar la rueda de un vehículo 
+
+entrada: rueda de repuesto, vehículo, mecánico o persona que cambia la rueda, rueda de repuesto, herramientas.
+
+El Vehículo está en movimiento si/no
+si: Detener Vehículo y Descender
+no: No realizar cambios
+Ubicar herramienta para cambiar rueda si/no
+si: retirar tuercas y retirar rueda averiada
+no: Llamar a una grúa 
+se retiró rueda averiada y dispones de una rueda de repuesto si/no
+si: poner rueda  de repuesto 
+no: llamar una grúa
+si la respuesta anterior fue sí proceder a continuar viaje.
+
+salida: vehiculo en optimo funcionamiento 

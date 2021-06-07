@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	escribir "ingrese un numero"
+	leer numero
+	si numero mod 2==0 y numero mod 5==0
+		escribir "el numero es divisible por 2 y 5 al mismo tiempo"
+	SiNo
+		escribir "el numero no es divisible por 2 y 5 al mismo tiempo"
+	FinSi
+FinAlgoritmo

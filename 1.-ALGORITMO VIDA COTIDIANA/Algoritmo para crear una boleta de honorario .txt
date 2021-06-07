@@ -1,0 +1,16 @@
+Algoritmo para crear una boleta de honorario 
+abrir navegador
+ingresar a www.sii.cl
+login
+ingresar a columna boletas honorario
+ingresar nombre
+ingresar servicio a cobrar
+ingresar agente retenedor 
+ingresar valor a cobrar
+generar boleta
+enviar boleta por correo
+
+entrada: sistema sii, usuario, valor a cobrar.
+salida: boleta honorario
+variable: nombre usuario, rut, detalle,  valor a cobrar
+constante: porcentaje de impuesto

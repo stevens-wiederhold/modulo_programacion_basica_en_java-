@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	escribir "sumando numeros"
+	contador =1
+	suma = 0
+	mientras contador <= 100 Hacer
+		suma = suma + contador
+		contador = contador + 1 
+	FinMientras
+	escribir "la suma de los numeros del 1 al 100 es ",suma
+FinAlgoritmo

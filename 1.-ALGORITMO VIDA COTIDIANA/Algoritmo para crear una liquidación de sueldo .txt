@@ -1,0 +1,16 @@
+Algoritmo para crear una liquidación de sueldo 
+
+ingresar a sistema de remuneraciones
+ingresar código identificatorio de empleado 
+ingresar dias trabajados
+ingresar horas extras
+ingresar porcentaje de descuento de afp
+ingresar descuento y tipo de previsión
+descontar adelantos
+se genera liquidación
+se imprime
+
+entrada:sistema de creación de sueldo, trabajador.
+salida: liquidación de sueldo  
+variable: descuento afp, nombre empleado, horas extras, días trabajados, 
+constante. sueldo base,  asignaciones

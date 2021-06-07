@@ -1,0 +1,22 @@
+Algoritmo para comprar en tienda virtual
+
+entrada:navegador, medio de pago, producto
+
+-Abrir navegador web.
+-Escribir dirección de página de tienda virtual.
+-Buscar productos deseados.
+-Seleccionar producto indicando cantidad talla o color, etc.
+-Agregarlos al carro de compras.
+-Seleccionar carro de compras. 
+-Iniciar sesión si/no
+si: ingresar usuario y contraseña
+no: realizar compra como invitado
+-seleccionar forma de pago
+-seleccionar envio a domicilio si/no
+si: confirmar o ingresar direccion de envio
+no. seleccionar tienda donde retirar producto.
+pagar producto
+finalizar compra 
+
+
+salida: compra web 

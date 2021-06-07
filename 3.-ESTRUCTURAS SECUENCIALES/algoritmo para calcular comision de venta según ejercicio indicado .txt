@@ -1,0 +1,29 @@
+algoritmo para calcular comision de venta según ejercicio indicado 
+
+variables:
+Comision Ventas
+Int Sueldo Base
+Int Venta1
+Int Venta2
+Int Venta3
+Int SumaVentas
+Int ComisionVenta
+Int SueldoVentas
+
+Constante:
+float comision = 0.1
+
+Algoritmo sin_titulo
+	escribir "ingrese venta 1"
+	leer venta1
+	escribir "ingrese venta 2"
+	leer venta2
+	escribir "ingrese venta 3"
+	leer venta3
+	comision = (venta1+venta2+venta3)*0.1
+	escribir "ingrese sueldo base"
+	leer base
+	total = comision + base
+	escribir "su sueldo mas comision es ", total
+	escribir "su comision por ventas es de "
+FinAlgoritmo

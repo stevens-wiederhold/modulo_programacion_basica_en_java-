@@ -1,0 +1,14 @@
+Algoritmo para preparar un sandwich 
+
+tomar un pan a gusto
+tomar un cuchillo
+rebanar el pan
+separa ambas piezas resultantes
+sobre una de las piezas poner una rebanada de tomate
+sobre la misma pieza poner una hamburguesa previamente preparada
+sobre la misma pieza poner la contra tapa de pan  
+levantar la pieza y dejarla sobre un plato
+
+
+entrada: mesa cocina, hamburguesa, tomate, pan, cuchillo, sal.
+salida: sandwich listo.

@@ -1,0 +1,16 @@
+Algoritmo para calcular promedio de 3 notas
+  
+
+variable: num1, num2, num3, promedio
+
+inicio algoritmo
+
+escribir “ingresar nota1”
+leer nota1
+escribir “ingresar nota2”
+leer nota2
+escribir “ingresar nota3”
+leer nota 3
+promedio=”(nota1+nota2+nota3)/3”
+escribir “tu promedio es”; promedio 
+fin algoritmo 

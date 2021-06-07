@@ -1,0 +1,12 @@
+Algoritmo obtener el cuadrado de un número es el siguiente:
+
+
+Variables
+      num, cuadrado tipo entero
+
+inicio algoritmo 
+     Escribe "Ingresa número"
+     Leer num
+     cuadrado= num * num
+     Escribe "El cuadrado es: ",cuadrado
+Fin algoritmo

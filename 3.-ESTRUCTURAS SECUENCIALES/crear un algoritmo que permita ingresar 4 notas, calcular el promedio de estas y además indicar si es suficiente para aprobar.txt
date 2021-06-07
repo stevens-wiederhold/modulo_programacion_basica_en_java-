@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	escribir "ingrese nota1"
+	leer nota1
+	escribir "ingrese nota2"
+	leer nota2
+	escribir "ingrese nota3"
+	leer nota3
+	escribir "ingrese nota4"
+	leer nota4
+	prom =(nota1+nota2+nota3+nota4)/4
+	si prom >3.9
+		escribir "su nota es ",prom
+		escribir "aprobado"
+	sino 
+		escribir "su nota es ",prom
+		escribir "reprobado"
+	FinSi
+FinAlgoritmo

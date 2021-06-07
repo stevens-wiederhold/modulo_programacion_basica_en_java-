@@ -1,0 +1,23 @@
+App para  aforo de personas en tiendas comerciales.
+
+(Espera de filas-  App de trazabilidad)
+Especie de Waze con aforo de personas, con el fin de evitar aglomeraciones.
+
+Variables: Número de personas, Aforo permitido tienda + áreas comunes  de Mall,    
+Constantes: Mensajes por segmento de aforo.
+
+Requerimientos:
+Establecer cantidad de gente aforo-personas que ingresaron +personas que salieron.
+Tiempos de espera
+Aforo permitido.
+
+
+App para vincular cuentas escolares.
+
+Requerimientos:   
+Calendarización de actividades.
+Obtener certificados, notas.
+Notificación de evaluaciones o actividades pendientes.
+
+Variables:   	notas, establecimiento, plataformas, usuarios, tipo de evaluación,                 
+Constantes: Mensajes de alerta por evaluación pendiente. 

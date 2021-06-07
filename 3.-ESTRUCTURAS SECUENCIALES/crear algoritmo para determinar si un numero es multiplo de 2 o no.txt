@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	escribir "ingrese un numero"
+	leer numero
+	si numero mod 2==0 Entonces
+		escribir "numemor es multiplo de dos"
+	SiNo
+		escribir "el numero no es multiplo de dos"
+	FinSi
+FinAlgoritmo

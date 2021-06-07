@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	escribir "ingrese un numero"
+	leer A
+	escribir "ingrese otro numero"
+	leer B
+	suma = a+b
+	escribir "el resultado de la suma es ",suma
+	si suma<0 Entonces
+		escribir "el resultado es negativo"
+	SiNo
+		escribir "el resultado es positivo"
+	FinSi
+FinAlgoritmo

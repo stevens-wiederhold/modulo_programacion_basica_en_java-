@@ -1,0 +1,12 @@
+
+Algoritmo sin_titulo
+	suma=0
+	contador=1
+	escribir "¿hasta que numero desea sumar?"
+	leer cantidad
+	mientras(contador <= cantidad) hacer
+		suma=suma+contador
+		contador = contador + 1
+	FinMientras
+	escribir "la suma es iguala a ",suma
+FinAlgoritmo

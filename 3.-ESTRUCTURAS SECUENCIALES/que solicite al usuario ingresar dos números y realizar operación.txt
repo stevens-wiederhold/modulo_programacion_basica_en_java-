@@ -1,0 +1,29 @@
+	escribir "ingrese numero"
+	leer A
+	escribir "ingrese otro numero"
+	leer B
+	escribir "ingrese 1 para suma"
+	escribir "ingrese 2 para resta"
+	escribir "ingrese 3 para divicion"
+	escribir "ingrese 4 para multiplicacion"
+	leer operacion
+	si operacion = 1 entonces 
+		suma=A+B
+		escribir "el resultado es ",suma
+	SiNo
+		si operacion = 2 entonces 
+			resta = A-B
+			escribir "el resultado es ",resta
+		SiNo
+			si operacion = 3
+				div = A/B
+				escribir "el resultado es "
+			sino 
+				si operacion = 4 
+					mult =A*B
+					escribir "el resultado es ",mult
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+	FinAlgoritmo

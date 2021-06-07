@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	i=1
+	Mientras  (i<=100) Hacer
+	escribir i
+	i=i+1
+fin mientras
+FinAlgoritmo
+
+
+
+Algoritmo sin_titulo
+	i=100
+	Mientras  (i>=0) Hacer
+	escribir i
+	i=i-1
+fin mientras
+FinAlgoritmo

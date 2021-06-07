@@ -1,0 +1,13 @@
+inicio 
+short A=0
+float porcentaje
+float total 
+
+Algoritmo sin_titulo
+	escribir "ingrese numero"
+	leer _numero
+	escribir "ingrese su porcentaje"
+	leer porcentaje
+	porcentaje = (_numero*porcentaje)/100
+	escribir "su porcentaje es ", porcentaje
+FinAlgoritmo

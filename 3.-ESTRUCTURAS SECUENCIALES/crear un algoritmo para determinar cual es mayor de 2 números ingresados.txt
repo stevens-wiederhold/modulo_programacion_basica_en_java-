@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	escribir "ingrese un numero"
+	leer A
+	escribir "inrese otro numero"
+	leer B
+	si A>b
+		escribir "el numero ", A
+		escribir "es mayor"
+	sino 
+		escribir "el numero ", B
+		escribir " es mayor"
+	FinSi
+FinAlgoritmo

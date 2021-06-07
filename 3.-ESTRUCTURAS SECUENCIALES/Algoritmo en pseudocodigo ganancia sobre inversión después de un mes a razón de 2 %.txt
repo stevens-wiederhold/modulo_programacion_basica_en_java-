@@ -1,0 +1,15 @@
+Algoritmo en pseudocodigo ganancia sobre inversión después de un mes a razón de 2 %
+ 
+
+Invertir capital con 2% de interés
+Variables capital, interés, total, meses.
+
+Algoritmo sin_titulo
+	escribir "ingrese capital"
+	leer capital
+	escribir "ingrese los meses"
+	leer meses
+	interes = (capital*0.2)
+	total = interes+capital
+	escribir "el resultado final es", total
+FinAlgoritmo

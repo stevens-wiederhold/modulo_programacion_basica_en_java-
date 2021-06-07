@@ -1,0 +1,21 @@
+algoritmo para intercambiar valores
+
+variables
+int valor 1
+int valor 2 
+short auxiliar A
+short auxiliar B
+
+Algoritmo sin_titulo
+	escribir "ingrese valor A"
+	leer A
+	escribir "ingrese valor B"
+	leer B
+	escribir "intercambiando valores"
+	aux_a = B
+	aux_b = A
+	A = aux_a
+	B = aux_b
+	escribir "el valor de a es ", A
+	escribir "el valor de b es ", B
+FinAlgoritmo
