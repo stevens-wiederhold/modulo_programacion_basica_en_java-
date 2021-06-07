@@ -1,0 +1,17 @@
+$ git status 
+estarus de archivos
+
+$ git add . 
+agregar archivos 
+
+
+$ git commit -M "Creacion de directorios"
+guardar todos los cambios en el repositorio local
+
+$ git config --gloval user.name "stevens"
+$ git config --gloval user.email 
+
+$ git push 
+actulizar repositorio remoto 
+
+DESCARGAR https://git-scm.com/download/win
